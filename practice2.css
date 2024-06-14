@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    width: 100vw;
+    max-width: 65rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    padding: 0 5vw 0 5vw;
+}
+
+#start>p{
+    font-size: 3rem;
+    margin-top: 5vh;
+}
+
+#start>img{
+    margin: 0 auto;
+    width: 30%;
+}
+
+#start>button{
+    margin-top: 20px;
+}
+
+#questio>#pgrNum{
+    text-align: left;
+    margin-top: 3vh;
+}
+
+#question>#title{
+    width: 100%;
+    height: 20vh;
+    margin: 10vh 0 10vh 0;
+    font-size: 1.5rem;
+}
+
+#question>#button{
+    height: 8vh;
+}
+
+#result > .result-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.result-btn button{
+    font-size: 1.5rem;
+}
+
+#copy{
+    width: 100%;
+    height: 50px;
+}
+
+#image{
+    width: 35%;
+    height: auto;
+}
+#result > .result-content{
+    border: 3px solid gold;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#explain{
+    font-size: 1rem;
+    color: rgb(194, 42, 90);
+}
